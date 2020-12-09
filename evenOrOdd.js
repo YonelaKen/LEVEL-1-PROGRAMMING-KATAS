@@ -7,4 +7,4 @@ function evenOrOdd(num){
     else{
       console.log("That is a even number")
     }
-  }
+  } 
