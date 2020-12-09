@@ -1,0 +1,19 @@
+
+function square(num){
+
+if(num === 2){
+  console.log("##")
+  console.log("##")
+} else if(num === 4){
+console.log("####")
+console.log("####")
+console.log("####")
+console.log("####")
+} else {
+  console.log("Your input is too large for processing. Please try a smaller number")
+}
+
+}
+
+square(2)
+
