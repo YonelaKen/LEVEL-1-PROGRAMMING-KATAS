@@ -12,7 +12,7 @@ console.log("####")
 } else {
   console.log("Your input is too large for processing. Please try a smaller number")
 }
-
+ 
 }
 
 square(2)
