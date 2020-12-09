@@ -12,3 +12,4 @@ function longest(array){
   console.log(longestWord)
 }
 longest(words)
+ 
