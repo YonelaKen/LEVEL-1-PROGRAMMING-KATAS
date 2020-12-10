@@ -1,0 +1,14 @@
+function frame(array){
+    console.log("*********")
+    for (count = 0; count < array.length ; count++){
+      if(array[count].length < 5){
+        array[count] = array[count] + " "
+      }
+        console.log("* " + array[count] + " *")
+    }
+    console.log("*********")
+}
+
+var someWords = ["Write","good","code","every","days"]
+
+frame(someWords)    

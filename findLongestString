@@ -1,0 +1,14 @@
+var words = ["the","quick","brown", "fox", "ate", "my", "chickens"]
+
+function longest(array){
+  var longestWord = ""
+  for (count = 0 ; count < words.length ; count ++){
+      for (i = 0 ; i < words.length ; i ++){
+        if(words[count] > words[i]){
+          longestWord = words[count]
+        }
+  }
+  }
+  console.log(longestWord)
+}
+longest(words)
